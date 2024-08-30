@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<!-- Website Title-->
+	<title> Bundefault.art</title>
+
+	<!--Proof of concept Site Test-->
+	<h1>Test Site For Wes</h1>
+
+	<!--proof of concept test speech-->
+ <h2> Storepage </h2>
+		<p>
+			I'm a tiny bnuy that likes boys! UwU
+		</p>
+
+	<!--This is the Tab icon-->
+	<link rel="icon" href="images/tab_icons/wesicon3.PNG" type="image/x-icon"/>
+
+	<!-- Site background-->
+	
+
+	<!-- Dark Theme & Light Theme toggle-->
+	<title>Toggle - Dark Theme</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<style>
+/* Toggle Dark Theme */
+#theme-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #596AFF;
+}
+#theme-btn:hover {
+  color: #BB86FC;
+}
+.changeTheme {
+  background: #1D1E22;
+  color: #eee;
+}
+</style>
+<body>
+  <div id="theme-btn" class="far fa-moon"></div>
+<script>
+const themeBtn = document.getElementById("theme-btn");
+themeBtn.onclick = () => {
+  themeBtn.classList.toggle("fa-sun");
+  if (themeBtn.classList.contains("fa-sun")) {
+    document.body.classList.add("changeTheme");
+  } else {
+    document.body.classList.remove("changeTheme");
+  }
+}
+</script>
+</html>
