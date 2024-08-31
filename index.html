@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Bundefault.art</title>
-  <h1>Test Site For Wes</h1>
+  <h1> Test Site For Wes</h1>
   <h2> Storepage </h2>
+
   <p>I'm a tiny bnuy that likes boys! UwU</p>
 
   <!--Tab icon-->
@@ -12,6 +13,18 @@
 </head>
 
 <body>
+<!--site background-->
+  <style>
+body{
+background-image: url(images/site_background/site_background.PNG);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+</style>
+
+<!--Dark Theme Toggle-->
   <title>Toggle - Dark Theme</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 <style>
@@ -32,13 +45,13 @@
 <body>
   <div id="theme-btn" class="far fa-moon"></div>
 <script>
-const themeBtn = document.getElementById("theme-btn");
-themeBtn.onclick = () => {
-  themeBtn.classList.toggle("fa-sun");
-  if (themeBtn.classList.contains("fa-sun")) {
-    document.body.classList.add("changeTheme");
+const themeBtn = document.getElementById(theme-btn);
+themeBtn.onclick = () = {
+  themeBtn.classList.toggle(fa-sun);
+  if (themeBtn.classList.contains(fa-sun)) {
+    document.body.classList.add(changeTheme);
   } else {
-    document.body.classList.remove("changeTheme");
+    document.body.classList.remove(changeTheme);
   }
 }
 </script>
