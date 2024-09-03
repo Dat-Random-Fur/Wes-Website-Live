@@ -1,9 +1,8 @@
-			/*Site Wallpaper*/
+/*font color and position*/
+selector {color: black;}
 h1, h2, p{text-align: center;}
-body {background-color: black;
-color: whitesmoke;
-}
 
+/*Site Wallpaper*/
 body {
     background-image: url("images/site_wallpaper/site_wallpaper_light.PNG");
     background-repeat: no-repeat;
